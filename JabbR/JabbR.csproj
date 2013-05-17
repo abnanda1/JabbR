@@ -79,15 +79,7 @@
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.0.0-beta1-130428\lib\net40\Microsoft.AspNet.SignalR.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.Owin.2.0.0-beta1-130428\lib\net45\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.0.0-beta1-130428\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.0.0-beta2-130516-b347\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.WebApi.Owin, Version=0.22.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -102,6 +94,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.1.1.0-beta1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Owin.Diagnostics">
       <HintPath>..\packages\Microsoft.Owin.Diagnostics.1.1.0-alpha1-20423-231\lib\net40\Microsoft.Owin.Diagnostics.dll</HintPath>
     </Reference>
@@ -109,9 +104,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.FileSystems.0.22.0-pre-20419-216\lib\net40\Microsoft.Owin.FileSystems.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.1.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.1.1.0-beta1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Mapping, Version=0.22.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -119,19 +114,14 @@
     </Reference>
     <Reference Include="Microsoft.Owin.Security, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.0.22.0-pre-20419-217\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.1.1.0-beta1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Federation, Version=0.22.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.Federation.0.22.0-pre-20419-216\lib\net45\Microsoft.Owin.Security.Federation.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.Forms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.Forms.0.22.0-pre-20419-217\lib\net45\Microsoft.Owin.Security.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Serialization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.Serialization.0.22.0-pre-20419-217\lib\net45\Microsoft.Owin.Security.Serialization.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security.Forms">
+      <HintPath>..\packages\Microsoft.Owin.Security.Forms.1.1.0-beta1\lib\net45\Microsoft.Owin.Security.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.StaticFiles, Version=0.22.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -169,7 +159,7 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Ninject, Version=3.0.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -940,7 +930,6 @@
     <Content Include="Scripts\jquery.history.js" />
     <Content Include="Scripts\jquery.autotabcomplete.js" />
     <Content Include="Scripts\jquery.captureDocumentWrite.js" />
-    <Content Include="Scripts\jquery.captureDocumentWrite.min.js" />
     <Content Include="Scripts\jquery.color.js" />
     <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="Scripts\jquery.KeyTips.js" />
@@ -949,8 +938,9 @@
     </Content>
     <Content Include="Scripts\jquery.network.mock.js" />
     <Content Include="Scripts\jquery.pubsub.js" />
-    <Content Include="Scripts\jquery.signalR-2.0.0-beta1-130428.js" />
     <Content Include="Scripts\jquery.signalR-2.0.0-beta1-130428.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.0.0-beta2-130516-b347.js" />
+    <Content Include="Scripts\jquery.signalR-2.0.0-beta2-130516-b347.min.js" />
     <Content Include="Scripts\jquery.sortElements.js" />
     <Content Include="Scripts\jquery.timeago.0.10.js" />
     <Content Include="Scripts\jQuery.tmpl.js" />

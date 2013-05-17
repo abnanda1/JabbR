@@ -13,7 +13,7 @@ using JabbR.Services;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 using Microsoft.AspNet.SignalR.Infrastructure;
-using Microsoft.AspNet.SignalR.SystemWeb.Infrastructure;
+//using Microsoft.AspNet.SignalR.SystemWeb.Infrastructure;
 using Microsoft.AspNet.SignalR.Transports;
 using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Federation;
@@ -66,7 +66,7 @@ namespace JabbR
                 AuthenticationType = Constants.JabbRAuthType,
                 CookieName = "jabbr.id",
                 ExpireTimeSpan = TimeSpan.FromDays(30),
-                DataProtection = kernel.Get<IDataProtection>(),
+                //DataProtection = kernel.Get<IDataProtection>(),
                 Provider = kernel.Get<IFormsAuthenticationProvider>()
             });
 
@@ -111,8 +111,8 @@ namespace JabbR
             var hubPipeline = resolver.Resolve<IHubPipeline>();
 
             // Ah well loading system web.
-            kernel.Bind<IProtectedData>()
-                  .To<MachineKeyProtectedData>();
+            //kernel.Bind<IProtectedData>()
+            //      .To<MachineKeyProtectedData>();
 
             kernel.Bind<IConnectionManager>()
                   .ToConstant(connectionManager);

@@ -134,10 +134,10 @@ namespace JabbR.Infrastructure
         {
             if (context.Extra == null)
             {
-                context.Extra = new Dictionary<string, string>();
+                context.Extra = new Microsoft.Owin.Security.AuthenticationExtra();//new Dictionary<string, string>();
             }
 
-            context.Extra[".persistent"] = "";
+            //context.Extra[".persistent"] = "";
         }
 
         private ChatUser GetLoggedInUser(IDictionary<string, object> env)
